@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: api_container_s1
+    build: ./api
+    image: api_image_s1
+    ports: 
+      - 80:4000
+
