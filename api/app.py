@@ -5,8 +5,8 @@ from flask import Response
 
 app = Flask(__name__)
 
-urla = 'http://18.191.144.213/'
-urlb = 'http://18.221.60.198/'
+urla = 'http://18.191.210.216/'
+urlb = 'http://3.135.198.197/'
 
 @app.route('/notes', methods=['POST'])
 def postNote():
